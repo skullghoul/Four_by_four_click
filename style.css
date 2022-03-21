@@ -1,0 +1,20 @@
+.allBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;   
+}
+.Box {
+    background-color: rgb(60, 60, 60);
+    height: 150px;
+    width: 150px;
+    margin: 2%;
+}
+.lightbox{
+    background-color: grey;   
+}
